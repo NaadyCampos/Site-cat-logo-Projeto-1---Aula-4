@@ -1,0 +1,100 @@
+<html>
+  <head>
+    <title>CATálogo</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <menu>
+        <li><a href="#titulo">Home</a></li>
+        <li><a href="#cards">Gatos</a></li>
+        <li><a href="#informacoes">Detalhes</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </menu>
+    </header>
+    <main>
+      <section class="titulo" id="titulo">
+        <h1>
+          Movimento dos Gatinhos Sem Teto - MGST
+        </h1>
+        <p>Catálogo para adoção de gatinhos sem teto</p>
+      </section>
+      <section class="cards" id="cards">
+        <div class="cards-box">
+          <div class="card">
+            <img src="gato1.png" alt="Imagem de um gato branco e amarelo deitado no chão com as patinhas dianteiras dobradas">
+            <p class="cardName"><b>Nome:</b> Olivia</p>
+            <p class="cardIdade"><b>Idade:</b> 17 meses</p>
+          </div>
+          <div class="card">
+            <img src="gato2.png" alt="Imagem de um gato branco e marrom deitado no chão com uma tiara na cabeça com flores azuis">
+            <p class="cardName"><b>Nome:</b> Liz</p>
+            <p class="cardIdade"><b>Idade:</b> 17 meses</p>
+          </div>
+          <div class="card">
+            <img src="gato3.png" alt="Imagem de um gato branco e amarelo e cinza deitado no chão com um laço rosa no pescoço">
+            <p class="cardName"><b>Nome:</b> Floribella</p>
+            <p class="cardIdade"><b>Idade:</b> 17 meses</p>
+          </div>
+        </div>
+      </section>
+      <section class="informacoes" id="#informacoes">
+        <table>
+          <tr>
+            <th>Nome</th>
+            <th>Quem sou</th>
+            <th>Idade</th>
+            <th>Peso</th>
+            <th>Valor adorção</th>
+          </tr>
+          <tr>
+            <td>Olivia</td>
+            <td>Princesa amorosa • Castrada • Vermifugada • Fiv/Felv Negativo</td>
+            <td>17 meses</td>
+            <td>3 Kg</td>
+            <td>R$100,00</td>
+          </tr>
+          <tr>
+            <td>Liz</td>
+            <td>Castrada • Vermifugada • Vacinada • Dócil • Amorosa • Brincalhona</td>
+            <td>3 anos</td>
+            <td>5 Kg</td>
+            <td>R$100,00</td>
+          </tr>
+          <tr>
+            <td>Floribella</td>
+            <td>Dócil • Castrada • Vermifugada • Companheira • Brincalhona</td>
+            <td>2 anos</td>
+            <td>3,5 Kg</td>
+            <td>R$100,00</td>
+          </tr>
+        </table>
+      </section>
+      <section class="formulario" id="contato">
+        <form action="" onsubmit="alert('Email enviado')">
+          <div class="dadosContato">
+            <label for="nome">Nome:</label>
+            <input id="nome" type="text">
+            <label for="telefone">Telefone:</label>
+            <input id="telefone" type="tel">
+            <label for="email">Email:</label>
+            <input id="email" type="email">
+          </div>
+          <div class="selecoes">
+            <p>Selecione o gato:</p>
+            <label for="cat1">Olívia:</label>
+            <input id="cat1" type="checkbox" value="Olívia">
+            <label for="cat2">Liz:</label>
+            <input id="cat2" type="checkbox" value="Liz">
+            <label for="cat3">Floribela:</label>
+            <input id="cat3" type="checkbox" value="Floribela">
+          </div>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>Entre em contato <b>(71) 9999-9999</b></p>
+    </footer>
+  </body>
+</html>
